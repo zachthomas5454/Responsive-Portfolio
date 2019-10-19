@@ -31,7 +31,7 @@
     background-color: #ffffff; 
   }
 
-  #name {
+  #name, #namec {
     background-color: #4aaaa5;
     color:  #ffffff;
     padding: 35px;
@@ -161,15 +161,16 @@
 
   #bodylayoutp {
     background-color:#ffffff;
-    width: 960px;
-    margin: 20px 300px 75px 300px;
+    width: 70%;
+    margin: 20px 15% 75px 15%;
   }
 
   #contact {
     color: #777777;
     padding: 20px 20px 0px 20px;
-    height: 850px;
+    height: 550px;
     border: rgb(233, 233, 233) solid 1px;
+    margin-bottom: 200px;
   }
 
   .input{
@@ -207,7 +208,7 @@
   color: #ffffff;
   background-color: #4aaaa5;
   padding: 5px;
-  width:10%;
+  width:100px;
   margin-left: 5px;
 }
 
@@ -215,7 +216,7 @@
 
 @media screen and (max-width:980px)
 {
-  #name {
+  #name, #namec {
     background-color: #4aaaa5;
     color:  #ffffff;
     padding: 35px;
@@ -237,7 +238,7 @@
       margin-top: 0;
    }
 
-   #bodylayout {
+   #bodylayout, #bodylayoutp {
     background-color:#ffffff;
     width: 65%;
     margin: 20px 30% 105px 5%;
@@ -251,23 +252,30 @@
     border: rgb(233, 233, 233) solid 1px;
   }
 
+  .pic1{
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
   .profilepic1{
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 240px;
+    width: 100%;
 }
 
 .text1{
-  margin-right: 20px;
+ 
   margin-bottom: 20px;
-  width: 240px;
+  width: 24%;
 }
 }
 
 @media screen and (max-width:768px)
 {
-  #name {
+  #name, #namec {
     background-color: #4aaaa5;
     color:  #ffffff;
     padding: 35px;
@@ -295,10 +303,12 @@
   }
 
 
-   #bodylayout {
+   #bodylayout, #bodylayoutp {
     background-color:#ffffff;
     width: 100%;
-    margin: 20px 0% 105px 0%;
+    height: 550px;
+    margin: 20px 0% 205px 0%;
+
   }
 
   #aboutme {
@@ -326,7 +336,7 @@
 @media screen and (max-width:640px)
 {
   
-  #name {
+  #name, #namec {
     background-color: #4aaaa5;
     color:  #ffffff;
     width:100%;
