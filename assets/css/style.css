@@ -132,6 +132,7 @@
   #portfolio{
     padding: 20px 20px 0px 20px;
     height:850px;
+    border: rgb(233, 233, 233) solid 1px;
 }
 
   .pic1{
@@ -242,6 +243,7 @@
     background-color:#ffffff;
     width: 65%;
     margin: 20px 30% 105px 5%;
+    border: rgb(233, 233, 233) solid 1px;
   }
 
   #aboutme {
@@ -249,7 +251,6 @@
     padding: 20px 20px 20px 20px;
     text-align: left;
     height: 850px;
-    border: rgb(233, 233, 233) solid 1px;
   }
 
   .pic1{
@@ -303,20 +304,26 @@
   }
 
 
-   #bodylayout, #bodylayoutp {
+   #bodylayout {
+    background-color:#ffffff;
+    width: 100%;
+    height: 850px;
+    margin: 20px 0% 205px 0%;
+    border: rgb(233, 233, 233) solid 1px;
+  }
+    #bodylayoutp {
     background-color:#ffffff;
     width: 100%;
     height: 550px;
     margin: 20px 0% 205px 0%;
-
-  }
+    border: rgb(233, 233, 233) solid 1px;
+    }
 
   #aboutme {
     color: #777777;
     padding: 20px 20px 20px 20px;
     text-align: left;
     height: 850px;
-    border: rgb(233, 233, 233) solid 1px;
   }
 
   .profilepic1{
@@ -364,21 +371,23 @@
    #bodylayout {
     background-color:#ffffff;
     width: 100%;
+    height: 1200px;
     margin: 20px 0% 105px 0%;
+    border: rgb(233, 233, 233) solid 1px;
   }
 
   #aboutme {
     color: #777777;
     padding: 20px 20px 20px 20px;
     text-align: left;
-    height: 850px;
-    border: rgb(233, 233, 233) solid 1px;
+    height: 1200px;
+    
   }
 
   #profilepic{
     position: relative;
-    width: 100%;
-    height: 30%;
+    width: 90%;
+    height: 20%;
    }
 
    .pic1{
